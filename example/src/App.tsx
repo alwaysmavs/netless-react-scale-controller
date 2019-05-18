@@ -19,16 +19,17 @@ export default class App extends React.Component<{}, AppStates> {
       this.setState({scale: scale});
     }
 
-    private getSlider(): React.ReactNode {
-        return <ScaleController style={{color: "black"}} zoomChange={this.zoomChange} zoomScale={this.state.scale}/>;
-    }
-
     public render(): React.ReactNode {
         return (
             <div className="container">
-                <h1>React Scale Controller</h1>
-                {this.getSlider()}
-                <div className="test-box" style={{transform: `scale(${this.state.scale})`}}/>
+                <div className="container-title">React Scale Controller</div>
+                <ScaleController
+                    style={{color: "black"}}
+                    zoomChange={this.zoomChange}
+                    zoomScale={this.state.scale}/>
+                <div
+                    className="test-box"
+                    style={{transform: `scale(${this.state.scale})`}}/>
             </div>
         );
     }
