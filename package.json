@@ -1,6 +1,7 @@
 {
-  "name": "netless-scale-controller",
-  "version": "1.0.0",
+  "name": "@netless/react-scale-controller",
+  "version": "1.0.1",
+  "types": "dist/index.d.ts",
   "description": "a whiteboard scale controller",
   "author": "alwaysmavs",
   "license": "MIT",
