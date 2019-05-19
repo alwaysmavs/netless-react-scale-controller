@@ -49,13 +49,13 @@ export default class ScaleControllerExample extends React.Component<{}, {}>
 1. 获取源码
 
     ```bash
-    git clone git@github.com:netless-io/netless-react-agora.git
+    git clone git@github.com:netless-io/netless-react-scale-controller.git
     ```
 
 2. 进入项目并安装库文件依赖
 
     ```bash
-    cd netless-react-agora
+    cd netless-react-scale-controller
     yarn
     ```
 
